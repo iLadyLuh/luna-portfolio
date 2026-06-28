@@ -59,7 +59,7 @@ export interface WindowState {
   }
 })
 export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
-  developerName = signal('Luna T. G.');
+  developerName = signal('Luna Gelmini');
   email = signal('contact@ladyluh.dev');
   currentYear = new Date().getFullYear();
   isPoetryEnabled = signal(false);
