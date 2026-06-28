@@ -39,13 +39,11 @@ import { Component, ChangeDetectionStrategy, Input } from '@angular/core';
         <div class="h-[1px] w-full bg-gray-800 my-4"></div>
 
         <div class="grid grid-cols-[80px_1fr] gap-y-2 text-xs md:text-sm">
-          <span class="text-pink-500 font-bold">OS</span> <span class="text-gray-400">Arch Linux x86_64</span>
+          <span class="text-pink-500 font-bold">OS</span> <span class="text-gray-400">NixOS x86_64</span>
           <span class="text-pink-500 font-bold">Host</span> <span class="text-gray-400">portifolio</span>
           <span class="text-pink-500 font-bold">Kernel</span> <span class="text-gray-400">Linux</span>
           <span class="text-pink-500 font-bold">Uptime</span> <span class="text-gray-400">{{ currentTime }}</span>
-          <span class="text-pink-500 font-bold">Shell</span> <span class="text-gray-400">zsh 5.9</span>
-          <span class="text-pink-500 font-bold">Theme</span> <span class="text-gray-400">Cyberpunk_Pink</span>
-          <span class="text-pink-500 font-bold">Font</span> <span class="text-gray-400">JetBrains Mono</span>
+          <span class="text-pink-500 font-bold">Shell</span> <span class="text-gray-400">fish</span>
         </div>
 
         <div class="flex gap-2 mt-4 pt-2">
@@ -63,6 +61,6 @@ import { Component, ChangeDetectionStrategy, Input } from '@angular/core';
   `
 })
 export class FetchComponent {
-  @Input() developerName = 'Luna T. G.';
+  @Input() developerName = 'Luna Gelmini';
   @Input() currentTime = '';
 }
