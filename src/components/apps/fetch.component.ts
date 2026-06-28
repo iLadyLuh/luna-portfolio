@@ -33,7 +33,7 @@ import { Component, ChangeDetectionStrategy, Input } from '@angular/core';
             {{ developerName }}
             <span class="text-xs bg-pink-500/10 text-pink-400 border border-pink-500/20 px-1.5 py-0.5 rounded">v1.0.0</span>
           </h2>
-          <p class="text-purple-400 text-xs mt-1">{{ "@" }}system_admin</p>
+          <p class="text-purple-400 text-xs mt-1">{{ "@" }}software_engineer</p>
         </div>
 
         <div class="h-[1px] w-full bg-gray-800 my-4"></div>
@@ -42,7 +42,7 @@ import { Component, ChangeDetectionStrategy, Input } from '@angular/core';
           <span class="text-pink-500 font-bold">OS</span> <span class="text-gray-400">NixOS x86_64</span>
           <span class="text-pink-500 font-bold">Host</span> <span class="text-gray-400">portifolio</span>
           <span class="text-pink-500 font-bold">Kernel</span> <span class="text-gray-400">Linux</span>
-          <span class="text-pink-500 font-bold">Uptime</span> <span class="text-gray-400">{{ currentTime }}</span>
+          <span class="text-pink-500 font-bold">Current Time</span> <span class="text-gray-400">{{ currentTime }}</span>
           <span class="text-pink-500 font-bold">Shell</span> <span class="text-gray-400">fish</span>
         </div>
 
